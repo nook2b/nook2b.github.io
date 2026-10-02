@@ -1,23 +1,33 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2685.3">
-  <style type="text/css">
-    p.p2 {margin: 0.0px 0.0px 16.0px 0.0px; font: 16.0px 'Helvetica Neue'; color: #1a1a1a; -webkit-text-stroke: #1a1a1a}
-    p.p3 {margin: 0.0px 0.0px 16.0px 0.0px; font: 16.0px 'Helvetica Neue'; color: #0000e9; -webkit-text-stroke: #0000e9}
-    span.s1 {font-kerning: none}
-    span.s2 {text-decoration: underline ; font-kerning: none}
-  </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>improv-video — personal YouTube upload tool</title>
+<style>body{font:16px/1.6 system-ui,sans-serif;max-width:720px;margin:40px auto;padding:0 16px;color:#222}nav a{margin-right:16px}h2{margin-top:32px}</style>
 </head>
 <body>
-<h1 style="margin: 0.0px 0.0px 21.4px 0.0px; font: 32.0px 'Helvetica Neue'; color: #1a1a1a; -webkit-text-stroke: #1a1a1a"><span class="s1"><b>improv-video</b></span></h1>
-<p class="p2"><span class="s1">improv-video is a personal desktop tool for macOS. It copies clips from an Insta360 camera memory card, edits them into one video per shooting day (color, brightness, audio clean-up) and uploads that video to the owner's own YouTube channel as an unlisted video to share with the team.</span></p>
-<p class="p2"><span class="s1">The app runs only on the owner's computer. It is not distributed to other users.</span></p>
-<p class="p3"><span class="s2"><a href="file:///Users/i.burlakov/Downloads/privacy.html">Privacy policy</a></span></p>
-<p class="p2"><span class="s1">Contact: nook2b@gmail.com</span></p>
+<nav><a href="index.html">Home</a><a href="privacy.html">Privacy policy</a><a href="terms.html">Terms of use</a></nav>
+<h1>improv-video</h1>
+<p><strong>improv-video is a personal macOS app that uploads rehearsal videos of my improv theatre group to my own YouTube channel.</strong></p>
+<p>When I insert the memory card of my Insta360 camera, the app copies the new clips, joins them into one video per day,
+applies color correction and audio clean-up on my computer, and uploads the video to YouTube as an
+<em>unlisted</em> video, so that only members of my group who receive the link can watch it.</p>
+
+<h2>Uses YouTube API Services</h2>
+<p>improv-video uses <strong>YouTube API Services</strong> (YouTube Data API v3, method <code>videos.insert</code>,
+OAuth scope <code>youtube.upload</code>) to upload videos to the signed-in user's own YouTube channel.
+It does not read, analyse or store any other YouTube data.</p>
+<ul>
+<li><a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a></li>
+<li><a href="https://policies.google.com/privacy">Google Privacy Policy</a></li>
+<li><a href="privacy.html">improv-video Privacy policy</a></li>
+<li><a href="terms.html">improv-video Terms of use</a></li>
+</ul>
+
+<h2>Who can use it</h2>
+<p>The app runs only on my own computer and has one user (me). It is not distributed, sold or offered to anyone else.</p>
+
+<p>Contact: nook2b@gmail.com</p>
 </body>
 </html>

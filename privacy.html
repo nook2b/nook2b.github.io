@@ -1,44 +1,48 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2685.3">
-  <style type="text/css">
-    p.p2 {margin: 0.0px 0.0px 16.0px 0.0px; font: 16.0px 'Helvetica Neue'; color: #1a1a1a; -webkit-text-stroke: #1a1a1a}
-    p.p5 {margin: 0.0px 0.0px 16.0px 0.0px; font: 16.0px 'Helvetica Neue'; color: #1a1a1a; -webkit-text-stroke: #1a1a1a; min-height: 18.0px}
-    li.li4 {margin: 0.0px 0.0px 0.0px 0.0px; font: 16.0px 'Helvetica Neue'; color: #1a1a1a; -webkit-text-stroke: #1a1a1a}
-    span.s1 {font-kerning: none}
-    span.s2 {-webkit-text-stroke: 0px #000000}
-    span.s3 {font: 16.0px Menlo; font-kerning: none}
-    span.s4 {font: 16.0px 'Helvetica Neue'; text-decoration: underline ; font-kerning: none; color: #0000e9; -webkit-text-stroke: 0px #0000e9}
-    ul.ul1 {list-style-type: disc}
-  </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>improv-video — Privacy policy</title>
+<style>body{font:16px/1.6 system-ui,sans-serif;max-width:720px;margin:40px auto;padding:0 16px;color:#222}nav a{margin-right:16px}h2{margin-top:32px}</style>
 </head>
 <body>
-<h1 style="margin: 0.0px 0.0px 21.4px 0.0px; font: 32.0px 'Helvetica Neue'; color: #1a1a1a; -webkit-text-stroke: #1a1a1a"><span class="s1"><b>Privacy policy</b></span></h1>
-<p class="p2"><span class="s1">Last updated: October 2, 2026</span></p>
-<h2 style="margin: 0.0px 0.0px 19.9px 0.0px; font: 24.0px 'Helvetica Neue'; color: #1a1a1a; -webkit-text-stroke: #1a1a1a"><span class="s1"><b>What the app does</b></span></h2>
-<p class="p2"><span class="s1">improv-video is a personal desktop application that uploads videos recorded by its owner to the owner's YouTube channel using the YouTube API Services.</span></p>
-<h2 style="margin: 0.0px 0.0px 19.9px 0.0px; font: 24.0px 'Helvetica Neue'; color: #1a1a1a; -webkit-text-stroke: #1a1a1a"><span class="s1"><b>Data the app accesses</b></span></h2>
-<ul class="ul1">
-  <li class="li4"><span class="s2"></span><span class="s1">Video files on the owner's computer and camera memory card, processed locally.</span></li>
-  <li class="li4"><span class="s2"></span><span class="s1">Access to the owner's YouTube account with the </span><span class="s3">youtube.upload</span><span class="s1"> scope, used only to upload videos and set their title, description, recording date and privacy status.</span></li>
+<nav><a href="index.html">Home</a><a href="privacy.html">Privacy policy</a><a href="terms.html">Terms of use</a></nav>
+<h1>Privacy policy</h1>
+<p>Last updated: October 2, 2026</p>
+
+<h2>YouTube API Services</h2>
+<p>improv-video uses YouTube API Services. By using improv-video you agree to be bound by the
+<a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>.
+Google's handling of your data is described in the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+
+<h2>What the app does</h2>
+<p>improv-video is a personal desktop application that uploads videos recorded by its owner
+to the owner's YouTube channel using the YouTube Data API.</p>
+
+<h2>Data the app accesses, uses and stores</h2>
+<ul>
+<li><strong>Video files</strong> on the owner's computer and camera memory card. They are processed locally and never sent anywhere except to YouTube when uploaded.</li>
+<li><strong>YouTube account access</strong> with the <code>youtube.upload</code> scope only. It is used to upload videos and set their title, description, recording date and privacy status (unlisted). The app does not read channel data, comments, analytics or any other information from the Google account.</li>
+<li><strong>OAuth access token and refresh token</strong>, stored only in the macOS Keychain on the owner's computer.</li>
+<li><strong>A local log and a local list of processed clips</strong> (file names, dates, YouTube video IDs), stored on the owner's computer.</li>
 </ul>
-<h2 style="margin: 0.0px 0.0px 19.9px 0.0px; font: 24.0px 'Helvetica Neue'; color: #1a1a1a; -webkit-text-stroke: #1a1a1a"><span class="s1"><b>Storage and sharing</b></span></h2>
-<ul class="ul1">
-  <li class="li4"><span class="s2"></span><span class="s1">All processing happens on the owner's computer. No data is sent to the developer or any server other than Google's YouTube API.</span></li>
-  <li class="li4"><span class="s2"></span><span class="s1">The Google access token is stored locally in the operating system keychain.</span></li>
-  <li class="li4"><span class="s2"></span><span class="s1">The app does not collect analytics, does not sell or share data with third parties, and does not read any other data from the Google account.</span></li>
+
+<h2>Sharing</h2>
+<p>No data is sent to the developer or to any server other than Google's YouTube API.
+The app does not collect analytics, does not use cookies, and does not sell or share data with third parties.</p>
+
+<h2>Deleting your data and revoking access</h2>
+<ul>
+<li>Revoke the app's access to your Google account at any time at
+<a href="https://security.google.com/settings/security/permissions">Google security settings</a>
+(myaccount.google.com/permissions). After that the app can no longer upload videos.</li>
+<li>Deleting the app and its folder <code>~/Library/Application Support/improv-video</code> removes all locally stored data;
+the token can also be removed from the macOS Keychain (entry "improv-video").</li>
+<li>Videos uploaded to YouTube are managed in YouTube Studio and can be deleted there.</li>
 </ul>
-<h2 style="margin: 0.0px 0.0px 19.9px 0.0px; font: 24.0px 'Helvetica Neue'; color: #1a1a1a; -webkit-text-stroke: #1a1a1a"><span class="s1"><b>Revoking access</b></span></h2>
-<p class="p2"><span class="s1">Access can be revoked at any time at <a href="https://myaccount.google.com/permissions"><span class="s4">myaccount.google.com/permissions</span></a>. Deleting the app removes the locally stored token.</span></p>
-<h2 style="margin: 0.0px 0.0px 19.9px 0.0px; font: 24.0px 'Helvetica Neue'; color: #1a1a1a; -webkit-text-stroke: #1a1a1a"><span class="s1"><b>YouTube and Google policies</b></span></h2>
-<p class="p2"><span class="s1">By using this app you agree to the <a href="https://www.youtube.com/t/terms"><span class="s4">YouTube Terms of Service</span></a>. See also the <a href="https://policies.google.com/privacy"><span class="s4">Google Privacy Policy</span></a>.</span></p>
-<h2 style="margin: 0.0px 0.0px 19.9px 0.0px; font: 24.0px 'Helvetica Neue'; color: #1a1a1a; -webkit-text-stroke: #1a1a1a"><span class="s1"><b>Contact</b></span></h2>
-<p class="p2"><span class="s1">nook2b@gmail.com</span></p>
-<p class="p5"><span class="s1"></span><br></p>
+
+<h2>Contact</h2>
+<p>nook2b@gmail.com</p>
 </body>
 </html>
